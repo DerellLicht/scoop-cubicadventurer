@@ -1,0 +1,20 @@
+{
+    "version": "0.99",
+    "description": "Customizable tabbed file manager (revival of CubicExplorer)",
+    "homepage": "https://github.com/DerellLicht/CubicAdventurer",
+    "license": "MPL-1.1",
+    "url": "https://github.com/DerellLicht/CubicAdventurer/releases/download/ca-0.99/CubicAdventurerV0.99.setup.zip",
+    "hash": "a7c43ed452f7afca94670a5646e99e676a4f51e7674915a8508afdbd2a95ddcc",
+    "installer": {
+        "file": "CubicAdventurerV0.99.setup.exe",
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ]
+    },
+    "uninstaller": {
+        "script": "& \"$env:LOCALAPPDATA\\Programs\\CubicAdventurer\\unins000.exe\" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+    },
+    "notes": "Installs per-user under %LOCALAPPDATA%\\Programs\\CubicAdventurer. Settings are in %APPDATA%\\CubicAdventurer."
+}
